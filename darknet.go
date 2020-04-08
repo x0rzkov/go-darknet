@@ -1,5 +1,5 @@
 package darknet
 
-// #cgo CFLAGS: -I/usr/local/include -I/usr/local/cuda/include
-// #cgo LDFLAGS: -L/usr/lib -ldarknet -lm
+// #cgo CFLAGS: -I/usr/local/include -I/usr/local/cuda/include -I/usr/local/cuda-10.0/targets/x86_64-linux/include
+// #cgo LDFLAGS: -L/usr/lib -ldarknet -lm -L/usr/local/cuda-10.0/targets/x86_64-linux/lib
 import "C"
